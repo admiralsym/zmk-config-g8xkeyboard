@@ -40,10 +40,11 @@
             , <&gpio0 17 GPIO_ACTIVE_HIGH>
             ;
     };
-default_transform: keymap_transform_0 {
+    default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <9>;
         rows = <14>;
+        columns = <9>;
+
         map = <
 
             R(0,0)   R(0,1)   R(0,2)   R(0,3)   R(0,4)   R(0,5)   R(0,6)   R(0,7)   R(0,8)
